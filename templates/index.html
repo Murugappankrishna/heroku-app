@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Random Menu Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+  <body>
+    <header>
+      <div class="container1">
+        <span class="logo1">
+          <img src="{{url_for('static', filename='assets/MCET_logo.png')}}" alt="">
+        </span>
+        <h1 class="college-name">
+          <strong>
+            Dr. Mahalingam College<br>of Engineering and Technology
+          </strong>
+        </h1>
+        <span class="logo2">
+          <img src="{{url_for('static', filename='assets/NM100_logo.png')}}" alt="">
+        </span>
+      </div>
+    </header>
+    <div class="container2">
+        <h2>
+          NPTC - HOSTEL<br>
+          <strong><span class="title">Random Menu Generator</span></strong>
+        </h2>
+    </div>
+    <form action="/Generate" method="get" class="form-button">
+		<button class="button" role="button" type="submit">Generate New Menu</button>
+    </form>
+	<section class="footer">
+		<span class="left">
+			Hostel committee<br>2k22
+		</span>
+		<span class="right">
+			Developed by <br>
+			Murugappan MM - ECE(20BEC066)<br>
+			Ajathan R - CSE(20BCS069)
+		</span>
+	</section>
+  </body>
+</html>

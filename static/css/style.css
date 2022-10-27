@@ -1,0 +1,130 @@
+body {
+    margin: 10px;
+    padding: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #444;
+    background-image: url('../assets/Background.png');
+    background-repeat: no-repeat;
+   background-size: cover;
+  }
+.container1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  justify-items:center;
+}
+
+.logo1 img{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  width: 300px;
+  
+}
+
+.college-name{
+  font-size: 50px;
+  padding: 10px;
+  
+}
+
+.logo2 img{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  width: 300px;  
+}
+.container2{
+  display: flex;
+  justify-content: space-evenly;
+  justify-items:center;
+}
+
+.title{
+  font-size: 50px;
+}
+
+.form-button{
+  display: flex;
+  justify-content:center;
+  
+}
+
+
+
+/* #############################444 */
+
+
+
+/* CSS */
+.button {
+  appearance: button;
+  background-color: #1899D6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button:after {
+  background-clip: padding-box;
+  background-color: #1CB0F6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+}
+
+.button:main,
+.button:focus {
+  user-select: auto;
+}
+
+.footer {
+	position: absolute;
+	display: flex;
+	bottom: 0;
+	width: 97vw;
+	margin: 0 auto 20px;
+	padding: 0;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.left {
+	float: left;
+	font-weight: 600;
+}
+
+.right {
+	float: right;
+	font-weight: 800;
+}
+
+.left, .right {
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+	text-align: center;
+	color: #000 !important;
+}
